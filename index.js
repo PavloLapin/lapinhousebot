@@ -4,9 +4,10 @@ const TOKEN = '943147825:AAHZhDVBVo1H537Km0lP3QxXwMF-jyGxI7U'
 
 console.log('BOT IS ON!')
 
-require('http').createServer().listen(process.env.PORT || 5000).on('request', function(req,res){
-    res.end(")
+require('http').createServer().listen(process.env.PORT || 5000).on('request', function(req, res){
+    res.end('')
 })
+
 
 const bot = new TelegramBot (TOKEN, {
     polling: {
